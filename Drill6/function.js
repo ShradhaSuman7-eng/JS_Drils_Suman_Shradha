@@ -27,7 +27,7 @@ function limitFunctionCallCount(cb, n) {
       count++;
       return cb();
     } else {
-      return null; // Return null instead of a message
+      return null; 
     }
   };
 }
